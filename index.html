@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АвтоМастерская</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="https://api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=ru_RU" type="text/javascript"></script>
+    
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <h1>Автомастерская "Крутящий Момент"</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Главная секция -->
+    <section id="home">
+        <div class="hero-image"></div>
+        <p>Добро пожаловать в нашу автомастерскую! Мы предлагаем качественный ремонт автомобилей.</p>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services">
+        <h2>Наши услуги:</h2>
+        <ul>
+            <li>Диагностика автомобиля</li>
+            <li>Замена масла</li>
+            <li>Ремонт двигателя</li>
+            <li>Шиномонтаж</li>
+            <li>Покраска авто</li>
+        </ul>
+    </section>
+
+    <!-- О нас -->
+    <section id="about">
+        <h2>О нашей мастерской:</h2>
+        <p>Мы — команда профессионалов, занимающихся ремонтом автомобилей уже много лет. Наш опыт позволяет нам быстро находить проблемы и эффективно устранять их.</p>
+    </section>
+<section id="city-filter">
+        <label for="city-select">Выберите город:</label>
+        <select id="city-select">
+            <option value="moscow">Москва</option>
+            <option value="spb">Санкт-Петербург</option>
+        </select>
+    </section>
+    <!-- Контактная информация -->
+    <section id="contact">
+        <h2>Свяжитесь с нами:</h2>
+        <address>
+            Адрес: г. Москва, ул. Автозаводская, д. 17<br>
+            Телефон: +7 (495) 123-45-67<br>
+            Email: info@autoservice.ru
+        </address>
+        <div id="map-container" style="height: 400px; width: 100%;"></div>
+    </section>
+    
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <p>© 2025 АвтоМастерская "Крутящий Момент". Все права защищены.</p>
+    </footer>
+
+    <script src="zxc.js"></script>
+</body>
+</html>

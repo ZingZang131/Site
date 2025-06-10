@@ -1,0 +1,83 @@
+/* Общие настройки */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Шапка */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Основная страница */
+#home .hero-image {
+    height: 300px;
+    background: url('orig.jpg') no-repeat center center/cover;
+}
+
+#home p {
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+/* Раздел услуг */
+#services h2,
+#about h2,
+#contact h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#services ul {
+    list-style-type: square;
+    padding-left: 2rem;
+}
+
+/* Информация о мастерских */
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Контакты */
+#contact address {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Подвал */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
