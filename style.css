@@ -81,3 +81,74 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.product button:hover {
+ background-color: #45a049; /* Темно-зеленый цвет при наведении */
+ transform: translateY(-3px); /* Небольшое поднятие кнопки */
+}
+
+.product button:active {
+ transform: translateY(0); /* Вернуть на место при нажатии */
+}
+
+/* Основная разметка тела */
+body {
+ transition: all 0.3s ease-in-out;
+}
+
+/* Цветовая схема по умолчанию (светлый фон) */
+.light-theme {
+ background-color: white;
+ color: black;
+
+}
+
+/* Темная цветовая схема */
+.dark-theme {
+ background-color: black;
+ color: white;
+}
+
+/* Зелёная цветовая схема */
+.green-theme {
+ background-color: #bdfdbb;
+ color: #0a7c10;
+}
+
+.darkblue-theme {
+ background-color: #4939c2;
+ color: #1800a1;
+}
+
+/* Стилизация select элемента */
+#theme-select {
+ border-radius: 5px;
+ width: auto;
+ outline: none;
+ box-shadow: rgba(0, 0, 0, .1) 0 0 5px;
+}
+
+/* Скрываем элемент по умолчанию */
+.message {
+ visibility: hidden;
+}
+
+/* Применяются стандартные классы от Animate.css */
+@keyframes fadeInLeftBig {
+ from {
+     opacity: 0;
+     transform: translateX(-2000px);
+ }
+ to {
+     opacity: 1;
+     transform: none;
+ }
+}
+
+.animate_animated {
+ animation-duration: 1s;
+ animation-fill-mode: both;
+}
+
+.animate_fadeInLeftBig {
+ animation-name: fadeInLeftBig;
+}
